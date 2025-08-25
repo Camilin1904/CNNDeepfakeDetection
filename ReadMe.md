@@ -49,8 +49,8 @@ Following the methodology from the original paper:
 - **Optimizer**: Adam optimizer with learning rate 0.01
 - **Loss Function**: Binary cross-entropy
 - **Batch Size**: 64
-- **Epochs**: Training conducted until convergence
-- **Hardware**: Limited computational resources (subset training)
+- **Epochs**: 200
+- **Hardware**: Google Colaboratory free T4 GPU environment
 
 ## Results
 
