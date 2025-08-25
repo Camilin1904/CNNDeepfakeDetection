@@ -96,7 +96,7 @@ The model demonstrates reasonable performance in distinguishing between real and
 ## Future Improvements
 
 1. **Full Dataset Training**: Utilize complete 14k image dataset with enhanced computational resources
-2. **Extended Training**: Increase training epochs for better convergence, as eventhough the article claimed that rates plateaued after 200 epochs, our dataset is different
+2. **Extended Training**: Increase training epochs for better convergence, as even though the article claimed that rates plateaued after 200 epochs, our dataset is different
 3. **Hyperparameter Optimization**: Given that the dataset is different than the one used in the article, fine-tuning learning rates and architecture parameters may improve accuracy
 4. **Cross-validation**: Implement k-fold validation for more robust performance assessment
 5. **Ensemble Methods**: Combine multiple models for improved accuracy
