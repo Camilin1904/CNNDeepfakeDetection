@@ -26,10 +26,10 @@ The architecture progressively extracts deeper features through convolutional op
 **Source**: [Deepfake and Real Images Dataset](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images)
 
 Due to computational constraints, we utilized a subset of the original dataset:
-- **Total Images**: 8,000 (reduced from 14,000 available)
+- **Total Images**: 8,000 (reduced from 140,000 available)
 - **Real Images**: 4,000
 - **Fake Images**: 4,000
-- **Split Ratio**: 70% training, 10% validation, 20% testing
+- **Split Ratio**: 1-1-1 (The dataset came with about 10000 test images and 40000 validation images)
 
 The dataset contains facial images from various sources, providing diversity necessary for model generalization across different deepfake generation techniques.
 
