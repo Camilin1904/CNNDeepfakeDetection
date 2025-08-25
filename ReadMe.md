@@ -59,6 +59,12 @@ Our implementation achieved the following performance metrics on the test datase
 ### Overall Performance
 - **Test Accuracy**: 78.9%
 
+### Confusion Matrix
+|                      | Predicted Real | Predicted Fake |
+|----------------------|----------------|----------------|
+| **Actual Real**      | True Negative: **3562** | False Positive: **438** |
+| **Actual Fake**      | False Negative: **1250** | True Positive: **2750** |
+
 ### Detailed Classification Report
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
@@ -90,8 +96,8 @@ The model demonstrates reasonable performance in distinguishing between real and
 ## Future Improvements
 
 1. **Full Dataset Training**: Utilize complete 14k image dataset with enhanced computational resources
-2. **Extended Training**: Increase training epochs for better convergence
-3. **Hyperparameter Optimization**: Fine-tune learning rates and architecture parameters
+2. **Extended Training**: Increase training epochs for better convergence, as eventhough the article claimed that rates plateaued after 200 epochs, our dataset is different
+3. **Hyperparameter Optimization**: Given that the dataset is different than the one used in the article, fine-tuning learning rates and architecture parameters may improve accuracy
 4. **Cross-validation**: Implement k-fold validation for more robust performance assessment
 5. **Ensemble Methods**: Combine multiple models for improved accuracy
 
